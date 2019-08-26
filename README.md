@@ -39,4 +39,4 @@ A helloworld website experience for testing purposes.
 ## Interface Control Document
 
 This is bewing defined in a branch until ready for release.
-<https://github.com/mgmwerx/2019-Coding-Sprint/edit/dev-icd>
+<https://github.com/mgmwerx/2019-Coding-Sprint/tree/dev-icd>
