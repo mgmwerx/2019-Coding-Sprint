@@ -26,7 +26,13 @@ To provide [Object-Relational Mapping](https://en.wikipedia.org/wiki/Object-rela
 
 ### Database
 
-Establishing a MongoDB instance. Will draft first columns.
+Establishing a MongoDB instance. MongoDB collections: Location, Events, Source.
+(N) - Designates nullable
+(U) - Designates unique
+
+Location: location_id (U), name, address, second_line (N), city, state, zip
+Events: id (U), title, starts_at, ends_at, description (N), website_url, timestamp
+Source: website_url (U)
 
 ### Web Host
 
