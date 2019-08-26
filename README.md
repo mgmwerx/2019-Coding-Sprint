@@ -33,14 +33,32 @@ Establishing a MongoDB instance. MongoDB collections: Location, Events, Source.
 
 **Location**
 
-| location_id (U) | name | address | second_line (N) | city | state | zip |
+| Column Name |
+| ----- |
+| location_id (U) |
+|  name |
+| address |
+| second_line (N) |
+| city |
+| state |
+| zip |
   
 **Events**
 
-| id (U) | title | starts_at | ends_at | description (N) | website_url | timestamp |
+| Column Name |
+| ----- |
+| id (U) |
+| title |
+| starts_at |
+| ends_at |
+| description (N) |
+| website_url |
+| timestamp |
 
 **Source**
 
+| Column Name |
+| ----- |
 | website_url (U) |
 
 ### Web Host
