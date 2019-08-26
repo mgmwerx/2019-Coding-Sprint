@@ -8,7 +8,8 @@
     "test": "mocha -r ts-node/register --bail ./test/**/*Test.ts",
     "build": "tsc --project .",
     "prepublish": "npm run build",
-    "start": "nodemon -V dist/bin/main.js"
+    "start": "nodemon -V dist/bin/main.js",
+    "watch": "npx tsc --watch --project . & nodemon -V dist/bin/main.js"
   },
   "bin": "dist/bin/main.js",
   "main": "dist/lib/app.js",
