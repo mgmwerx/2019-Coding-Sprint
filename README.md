@@ -2,7 +2,7 @@
 
 This sprint will provide a concentrated data feed of events related to MGMWERX. On delivery, the system will allow for users to pull calendar events from our selected sources. The system will constantly pull data from select sources through a series of workers.
 
-For new ReadME users, [here's a cheat sheet on how to write it!](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+For new ReadME users, <a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf"  target="_blank">here's a basic cheat sheet</a> and <a href="https://www.markdownguide.org/">here's more detailed version</a>.
 
 ## Teams
 
