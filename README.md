@@ -35,3 +35,8 @@ The web host is a server that pulls from the database with known query parameter
 Any cleaning of user input/URL input should happen here.
 
 A helloworld website experience for testing purposes.
+
+## Interface Control Document
+
+This is bewing defined in a branch until ready for release.
+<https://github.com/mgmwerx/2019-Coding-Sprint/edit/dev-icd>
