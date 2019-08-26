@@ -9,13 +9,19 @@ Each team has identified tasks to reach completion.
 
 ### Scrapers
 
+Will operate a python application that load from a local config file.
 
+1. On boot, the config options will load from a static file
+2. On itnerval, the scraper will perform the scraping
+3. After all sites are scraped, the object of calendar items are passed to Core Engine
 
 ### Core Engine
 
-To receive the scraper work at a common interface.
+To receive the scraper work at a common interface. 
 
 To provide [Object-Relational Mapping](https://en.wikipedia.org/wiki/Object-relational_mapping)
+1. Detect updates
+2. Detect duplicate sources
 
 ### Database
 
