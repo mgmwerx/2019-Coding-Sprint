@@ -8,6 +8,10 @@ app.post("/events", (req, res) => {
   res.send(req.body);
 });
 
+app.get("/", (_req, res) => {
+  res.send("ok");
+});
+
 app.use((_req, _res, next) => {
   next(404);
 });
