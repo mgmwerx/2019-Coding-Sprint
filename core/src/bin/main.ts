@@ -4,7 +4,8 @@ import * as http from "http";
 import app from "../lib/app";
 import { AddressInfo } from "net";
 
-const port = 80;
+// Use port 3000 by default, but allow it to be overridden with the PORT environment variable
+const port = process.env.PORT || 3000;
 app.set("port", port);
 const server = http.createServer(app);
 
