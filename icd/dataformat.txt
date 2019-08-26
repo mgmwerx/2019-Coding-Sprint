@@ -1,0 +1,34 @@
+// EVENT document
+EVENTS
+“event_document_id”: {
+    “id”: “event_document_id”,
+    “title”: “required string”,
+    “created_at”: “required Timestamp”,
+    “starts_at”: “required Timestamp”,
+    “host”: “required string”,
+    “location”: { “name”: “required name of location”,
+        “street”: “optional street address 47 woodcrest ave”,
+        “second_line”: “optional any other descriptor”,
+        “city”: “optional”,
+        “state”: “optiona - 2 characters l”,
+        “zip”: “optional”
+    },
+    “ends_at”: “required Timestamp, same day as starts_at later time”,
+    “description”: “optional string with whitepsace newlines”,
+    “categories”: [“array of categories lowercase”],
+    “image_uri”: “image_uri”,
+    “last_updated”: “required on update Timestamp”,
+    “attending_count”: “required int”,
+    // creator may need to be flattened to do query
+    “creator”: {“uid”: “userid”,
+        “first_name”: “name”,
+        “last_name”: “name”,
+        “email”: “email”
+    },
+    “attendees”: [userIds array]
+}
+
+That is the “calendar” object.  But it’s an Event in our model.
+and the starts_at, ends_at, created_at, last_updated are firebase Timestamps that we turn into native time objects.  For Swift we use a Date() and for Kotlin it’s a LocalDate()
+
+Android is a Date() and Calendar(), correction from Kevin
