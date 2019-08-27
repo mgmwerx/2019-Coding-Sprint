@@ -1,5 +1,0 @@
-# Ignore JetBrains (e.g. WebStorm) project files
-/.idea
-*.iml
-*.ipr
-*.iws
